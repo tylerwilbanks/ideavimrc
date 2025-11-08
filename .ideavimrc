@@ -50,3 +50,8 @@ map <leader>gt <Action>(GotoTest)
 map <leader>gu <Action>(GotoSuperMethod)
 " TODO find something better
 map <leader>gbt <Action>(GotoTypeDeclaration)
+
+" misc
+map \f <Action>(ReformatCode)
+
+set multiple-cursors
